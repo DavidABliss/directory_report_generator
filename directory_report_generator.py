@@ -30,6 +30,9 @@ spreadsheet rounds these to GiB. The report text file rounds large directories
 This report function can be modified to leave byte counts unconverted, however
 in its original state it should not be used to determine precise changes in 
 directory size.
+
+Script written by David Bliss in February 2020
+davidallynbliss.com
 """
 
 
