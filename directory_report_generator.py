@@ -218,7 +218,7 @@ def directoryReport(rootDir, reportDir):
         output.write('\n ----------------------------------- \n')    
 
 # Get user input for the path to be scanned and the path to place reports.
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(description='Return the total volume of each top-level directory within a given directory. Similar to du -sh in Unix, but with friendlier output. Identify the directory to be scanned and an output directory for generated reports.')
 parser.add_argument('-i', '--input', required=True, help="path to the drive or directory to be scanned", action="store", dest="i")
 parser.add_argument('-o', '--output', required=True, help="Path to a directory where reports will be saved", action="store", dest="o")
 
